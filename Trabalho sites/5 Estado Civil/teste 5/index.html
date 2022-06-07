@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form de Registro com validações em JS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="main-container">
+    <h1>Estado civil</h1>
+              <div>
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="agreement-label">Solteiro
+              </div>
+              <div>
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="agreement-label">Casado
+              </div>
+              <label for="CPF">Se Casado</label>
+              <form id="register-form" action="">
+                <div class="full-box">
+                  <label for="Nome do cônjuge">Nome do cônjuge</label>
+                  <input type="Nome do cônjuge" name="Nome do cônjuge" id="Nome do cônjuge" placeholder="Digite seu Nome do cônjuge" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="CPF do cônjuge">CPF do cônjuge</label>
+                  <input type="CPF do cônjuge" name="CPF do cônjuge" id="CPF do cônjuge" placeholder="Digite seu CPF do cônjuge" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="Possui filhos">Possui filhos</label>
+                  <div>
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement" id="agreement-label">Sim
+                  </div>
+                  <div>
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement" id="agreement-label">Não
+                </div>
+                <div class="full-box">
+                  <label for="Total de filhos">Total de filhos</label>
+                  <input type="Total de filhos" name="Total de filhos" id="Total de filhos" placeholder="Digite seu Total de filhos" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="Nome dos filhos">Nome dos filhos</label>
+                  <input type="Nome dos filhos" name="Nome dos filhos" id="Nome dos filhos" placeholder="Digite seu Nome dos filhos" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="CPF dos filhos">CPF dos filhos</label>
+                  <input type="CPF dos filhos" name="CPF dos filhos" id="CPF dos filhos" placeholder="Digite seu CPF dos filhos" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="Data de nascimento">Data de nascimento</label>
+                  <input type="Data de nascimento" name="Data de nascimento" id="Data de nascimento" placeholder="Data de nascimento" data-min-length="2" data-email-validate>
+                </div>
+                <div class="text-center mt-4">
+                  <a class="btn btn-xl btn-outline-light" href="file:///C:/Users/2012130021/Desktop/Fazer%20trabalho%20agora/Trabalhos%202/6%20Grau%20de%20escolaridade%20do%20assistido/teste%206/index.html">
+                      <i class="fas fa-entrar me-2"></i>
+                      Concluído!
+          </div>
+    </form>
+  </div>
+  <p class="error-validation template"></p>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

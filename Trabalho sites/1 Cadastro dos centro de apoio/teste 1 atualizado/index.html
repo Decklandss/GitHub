@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form de Registro com validações em JS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="main-container">
+    
+    <h1>Cadastro dos centro de apoio.</h1>
+              <form id="register-form" action="">
+                <div class="full-box">
+                  <label for="Razão social">Razão social</label>
+                  <input type="Razão social" name="Razão social" id="Razão social" placeholder="Digite seu Razão social" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="CNPJ">CNPJ</label>
+                  <input type="CNPJ" name="CNPJ" id="CNPJ" placeholder="Digite seu CNPJ" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="Logadrouro">Logadrouro</label>
+                  <input type="Logadrouro" name="Logadrouro" id="Logadrouro" placeholder="Digite seu Logadrouro" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="Bairro">Bairro</label>
+                  <input type="Bairro" name="Bairro" id="Bairro" placeholder="Digite seu Bairro" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="UF">UF</label>
+                  <input type="UF" name="UF" id="UF" placeholder="Digite seu UF" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="CEP">CEP</label>
+                  <input type="CEP" name="CEP" id="CEP" placeholder="Digite seu CEP" data-min-length="2" data-email-validate>
+                </div>
+                <div class="full-box">
+                  <label for="Telefone">Telefone</label>
+                  <input type="Telefone" name="Telefone" id="Telefone" placeholder="Digite seu Telefone" data-min-length="2" data-email-validate>
+                </div>
+                <div class="text-center mt-4">
+                  <a class="btn btn-xl btn-outline-light" href="file:///C:/Users/2012130021/Desktop/Fazer%20trabalho%20agora/Trabalhos%202/5%20Estado%20Civil/teste%205/index.html">
+                      <i class="fas fa-entrar me-2"></i>
+                      Concluído!
+          </div>
+    </form>
+  </div>
+  <p class="error-validation template"></p>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

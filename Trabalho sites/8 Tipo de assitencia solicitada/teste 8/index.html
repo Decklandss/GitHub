@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form de Registro com validações em JS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="main-container">
+    <h1>Tipo de assitencia solicitada</h1>
+
+    <div class="full-box">
+      <label for="Data de engresso no serviço">Data de engresso no serviço</label>
+      <input type="Data de engresso no serviço" name="Data de engresso no serviço" id="Data de engresso no serviçoF" placeholder="Digite seu Data de engresso no serviço" data-min-length="2" data-email-validate>
+    </div>
+    
+        <div>
+        <input type="checkbox" name="agreement" id="agreement">
+        <label for="agreement" id="agreement-label">Refeição diaria.
+      </div>
+
+        <div>
+        <input type="checkbox" name="agreement" id="agreement">
+        <label for="agreement" id="agreement-label">Higiene pessoal.
+      </div>
+      <div>
+        <div>
+          <input type="checkbox" name="agreement" id="agreement">
+          <label for="agreement" id="agreement-label">Dormintório.
+        </div>
+        <div>
+          <input type="checkbox" name="agreement" id="agreement">
+          <label for="agreement" id="agreement-label">Endereçamento postal.
+        </div>
+
+        <div>
+          <div class="campo">
+            <label for="Bairro"><strong>Refeição diaria total de dias de cobertura</strong></label>
+            <input type="text" name="Total de dias de cobertura" id="Total de dias de cobertura" required>
+        </div>
+        <div class="campo">
+          <label for="Total de dias de cobertura"><strong>Higiene pessoal total de dias de cobertura</strong></label>
+          <input type="text" name="Total de dias de cobertura" id="Total de dias de cobertura" required>
+      </div>
+          <div>
+            <div class="campo">
+              <label for="Total de dias de cobertura"><strong>Dormintório total de dias de cobertura</strong></label>
+              <input type="text" name="Total de dias de cobertura" id="Total de dias de cobertura" required>
+          </div>
+          <div class="campo">
+            <label for="Total de dias de cobertura"><strong>Endereçamento postal total de dias de cobertura</strong></label>
+            <input type="text" name="Total de dias de cobertura" id="Total de dias de cobertura" required>
+        </div>
+        <div class="full-box">
+          <label for="Data de saida no serviço">Data de saida no serviço</label>
+          <input type="Data de saida no serviço" name="Data de saida no serviço" id="Data de saida no serviçoF" placeholder="Digite seu Data de engresso no serviço" data-min-length="2" data-email-validate>
+          <div class="text-center mt-4">
+            <a class="btn btn-xl btn-outline-light" href="file:///C:/Users/2012130021/Desktop/Fazer%20trabalho%20agora/Trabalhos%202/9%20Finalizado/index.html">
+                <i class="fas fa-entrar me-2"></i>
+                Concluído!
+    </div>
+  </div>
+  <p class="error-validation template"></p>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
